@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="javascript:work();">
+        <label for="year">Enter the year:</label>
+        <div class="input-block">
+            <input type="number" name="number" id="year" value="" > For example: 2018, 2019, 2020
+          
+        </div>
+        <div>
+                <input type="radio" name="one" id="one" value="one person"> One person
+        </div>
+        <div>
+                <input type="radio" name="one" id="two" value="two person"> Two Person
+        </div>
+        
+        <label for="income">Enter the income:</label>
+        <div class="input-block">
+            <div>
+                    <input type="number" name="number" id="income-1"  value=""> 
+            </div>
+            <div>
+                    <input type="number" name="number" id="income-2" value=""> 
+            </div>
+            
+        </div>
+        <input type="submit" value="submit">
+
+    </form>
+    <h2 id="result"></h2>
+    <script src="main.js"></script>
+</body>
+</html>
